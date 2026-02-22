@@ -1,0 +1,105 @@
+{
+  "material_storage": {
+    "name": "Склад материалов",
+    "capacity": 10000.0,
+    "metal_amount": 4995.0,
+    "wood_amount": 7980.0
+  },
+  "finished_storage": {
+    "name": "Склад готовой продукции",
+    "capacity": 5000.0,
+    "metal_amount": 0.0,
+    "wood_amount": 0.0
+  },
+  "workshop": {
+    "name": "Сборочный цех",
+    "completed": [
+      "Стол"
+    ]
+  },
+  "workers": [
+    {
+      "name": "Иван Петров",
+      "age": 35,
+      "specialization": "универсал",
+      "experience": 8,
+      "is_busy": false
+    },
+    {
+      "name": "Анна Сидорова",
+      "age": 28,
+      "specialization": "столяр",
+      "experience": 5,
+      "is_busy": false
+    },
+    {
+      "name": "Петр Иванов",
+      "age": 42,
+      "specialization": "сборщик",
+      "experience": 12,
+      "is_busy": false
+    },
+    {
+      "name": "Мария Козлова",
+      "age": 30,
+      "specialization": "контролер",
+      "experience": 6,
+      "is_busy": false
+    },
+    {
+      "name": "Сергей Николаев",
+      "age": 38,
+      "specialization": "водитель",
+      "experience": 10,
+      "is_busy": false
+    }
+  ],
+  "tools": [
+    {
+      "name": "Молоток",
+      "durability": 98
+    },
+    {
+      "name": "Пила",
+      "durability": 80
+    },
+    {
+      "name": "Шуруповерт",
+      "durability": 90
+    },
+    {
+      "name": "Рубанок",
+      "durability": 70
+    },
+    {
+      "name": "Кисть",
+      "durability": 50
+    }
+  ],
+  "customers": [
+    {
+      "name": "Pasha",
+      "age": 30,
+      "phone": "+375336185834"
+    }
+  ],
+  "furnitures": [
+    {
+      "type": "Стол",
+      "customer": "Pasha",
+      "status": "Stored",
+      "materials": [
+        {
+          "type": "Wood",
+          "name": "Сосна",
+          "amount": 20.0
+        },
+        {
+          "type": "Metal",
+          "name": "Сталь",
+          "amount": 5.0
+        }
+      ]
+    }
+  ]
+}
